@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="h-screen bg-gradient-to-br from-[#04022a] via-[#020012] to-[#090909] bg-url bg-[url('/images/bg.jpg')] text-white relative overflow-hidden bg-cover bg-center bg-no-repeat  ">
 
-   <div className="absolute  z-0 inset-0 top-1/2 left-[77%] -translate-x-1/2 w-full max-w-5xl px-4 text-center text-white/45  ">
+    <div className="absolute  z-0 inset-0 top-1/2 left-[77%] -translate-x-1/2 w-full max-w-5xl px-4 text-center text-white/45  ">
 
      {/*   <Image
           src={"/images/robo-bg-layer.png"}
@@ -16,7 +16,7 @@ export default function Home() {
 
         <h1 className="font-bold text-9xl uppercase font-mono tracking-widest">VEC TOR</h1>
       </div>
-      <div className="absolute top-1/4 left-[90%] -translate-x-1/2 z-20  w-full max-w-3xl px-4 text-center">
+      <div className="absolute top-[20%] left-[90%] -translate-x-1/2 z-20  w-full max-w-3xl px-4 text-center">
         <Image
           src={"/images/robo.png"}
           alt="Background"
@@ -27,6 +27,11 @@ export default function Home() {
         />
       
       </div>
+
+   
+
+      
+ 
       <main className="relative z-20 font-medium pt-30  tracking-widest text-white  min-h-screen px-10 ">
     
     <h1 className="font-mono text-3xl pb-25 t uppercase "><span className="text-indigo-300">Welcome,</span><br /> to the future of stock <br/> market analysis and  <br /> <span className="text-olive-300">AI-powered trend <br/> prediction</span></h1>

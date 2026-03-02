@@ -2,13 +2,13 @@ import React from 'react'
 import Image from 'next/image'
 const login = () => {
   return (
-    <div className="h-screen bg-[#020617]  text-white relative overflow-hidden    backdrop-blur-2xl   ">
+    <div className="h-screen bg-neutral-900  text-white relative overflow-hidden    backdrop-blur-2xl   ">
     <div className="absolute inset-0 z-0">
         <Image
-          src={"/images/ring.jpg"}
+          src={"/images/bg.jpg"}
           alt="Background"
           fill
-        
+           className='opacity-10'
           priority
         />
         <div className="absolute top-[-10%] left-[-10%] w-[50%] h-[50%] bg-blue-600/20 blur-[120px] rounded-full animate-pulse" />
@@ -25,21 +25,13 @@ const login = () => {
           height={400}
         />
      </div>
-             <div className="absolute inset-0 z-0  ">
-             <Image
-               src={"/images/ring.jpg"}
-               alt="Background"
-                layout='fill'
-               className="object-cover opacity-100  rounded-lg shadow-lg"
-             
-             />
-             </div>
+            
                <div className="absolute inset-0 z-0  ">
              <Image
-               src={"/images/logbg2.jpg"}
+               src={"/images/bg.jpg"}
                alt="Background"
                 layout='fill'
-               className="object-cover opacity-100  rounded-lg shadow-lg"
+               className="object-cover   rounded-lg shadow-lg opacity-20"
              
              />
            

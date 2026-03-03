@@ -10,9 +10,9 @@ export default function Home() {
   const data2 = ["accuracy", "precision", "sensitivity","accuracy"];
 
   return (
-    <div className="h-screen bg-neutral-900 relative      overflow-x-hidden  backdrop-blur-3xl  ">
-       <div className="absolute  z-0 inset-0    text-center text-blue-300 top-[10%] left-[50%] rotate-90 ">
-         <h1 className={`text-7xl ${orbitron.className} font-extrabold tracking-[0.7em] uppercase mb-4 blur-xs`}>VECTOR</h1>
+    <div className="h-screen bg-neutral-900 relative      overflow-x-hidden  backdrop-blur-xl  ">
+       <div className="absolute  z-0 inset-0    text-center text-blue-200 top-[1%] left-[30%] ">
+         <h1 className={`text-6xl ${orbitron.className}  tracking-[0.7em] uppercase mb-4 `}>VECTOR</h1>
         
       </div>
 
@@ -35,14 +35,15 @@ export default function Home() {
           height={70}
         />
       </div>
-      <div className="  absolute inset-0 z-30 left-[47%]  top-5 ">
+      <div className="  absolute inset-0 z-30 left-[47%]  top-10 ">
         <Image
           src={"/images/robo.png"}
           alt="Background"
           width={420}
           height={420}
-          className=" object-cover drop-shadow-2xl"
-          style={{ filter: "grayscale(10%)" }}
+          className=" object-cover drop-shadow-[0_20px_50px_rgba(0,150,255,0.3)]"
+          style={{ filter: "grayscale(5%)" }}
+          
         />
       </div>
       <div></div>
@@ -51,7 +52,7 @@ export default function Home() {
                    src={"/images/bg.jpg"}
                    alt="Background"
                     layout='fill'
-                   className="object-cover opacity-40  rounded-lg shadow-lg"
+                   className="object-cover opacity-60  rounded-lg shadow-lg"
                  
                  />
                
@@ -68,7 +69,7 @@ export default function Home() {
         ))}
       </div>
       
-      <div className=" font-mono text-gray-300 z-50  absolute inset-0 top-[50%] left-[50%] gap-7 ">
+      <div className=" font-mono text-gray-300 z-50  absolute inset-0 top-[52%] left-[47%] gap-7 ">
         <div className="border-2 border-blue-200/60 p-4 uppercase h-10 w-40 rounded-sm shadow-lg bg-transparent backdrop-blur-sm justify-center items-center flex flex-col">
           stock market
         </div>
@@ -90,7 +91,7 @@ export default function Home() {
         {/*<h1 className="font-Poppins text-3xl  font-extrabold    max-w-3xl top-0 pt-10 "><span className="text-purple-300">Welcome,</span> market analysis <br/> and   <span className="text-olive-300">trend prediction</span> </h1>*/}
 
         <div className="  pt-10   ">
-            <h1 className={`${orbitron.className} text-2xl  text-blue-200 text-extrabold uppercase  font-Orbitron tracking-wider`}>
+            <h1 className={`${orbitron.className} text-2xl  text-blue-200 text-extrabold uppercase   tracking-wider`}>
         Stock market analysis and ,<br />trend prediction with AI.
       </h1>
           <p className="   text-xs font-mono uppercase tracking-widest  ">
